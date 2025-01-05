@@ -52,7 +52,7 @@ jobs:
     - name: Build Release
       shell: bash
       run: |
-        hub release create ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
+        gh release create ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
         -m ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
         -a out/${{ github.actor }}_resume.html \
         -a out/${{ github.actor }}_resume.md \
