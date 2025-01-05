@@ -114,14 +114,17 @@ a:hover {
   border-radius: 4px;
 }
 
-ul {
+ul, ol {
   padding-left: 1.5em;
   list-style-type: disc;
 }
 
 ol {
-  padding-left: 1.5em;
   list-style-type: decimal;
+}
+
+ol li ul:first-of-type {
+  margin-top: 0;
 }
 
 hr {
@@ -138,7 +141,7 @@ hr {
 
 #headline {
   display: grid;
-  grid-template-columns: [avatar] 2em [content] auto;
+  grid-template-columns: [avatar] 3em [content] auto;
   grid-column-gap: 0.5em;
   align-items: center;
   margin-bottom: 2em;
@@ -146,8 +149,8 @@ hr {
 
 #headline .avatar {
   grid-column: avatar;
-  width: 2em;
-  height: 2em;
+  width: 3em;
+  height: 3em;
   border-radius: 50%;
   background-color: var(--secondary-color);
 }
@@ -173,7 +176,7 @@ hr {
 
 article {
   display: grid;
-  grid-template-columns: [headers] 25% [content] auto;
+  grid-template-columns: [headers] 20% [content] auto;
   grid-column-gap: 1em;
   grid-row-gap: 1em;
   margin-bottom: 2em;
@@ -298,13 +301,13 @@ article .content {
   }
 
   #headline {
-    grid-template-columns: [avatar] 3em [content] auto;
+    grid-template-columns: [avatar] 4em [content] auto;
     font-size: 3em;
   }
 
   #headline .avatar {
-    width: 3em;
-    height: 3em;
+    width: 4em;
+    height: 4em;
     margin-bottom: 0;
   }
 
@@ -325,4 +328,270 @@ article .content {
     grid-template-columns: [headers] 20% [content] auto;
     justify-self: start;
   }
+}
+
+/* ==========================================================================
+   Highlight.js Styles (Optional)
+   ========================================================================== */
+
+.highlight .c {
+  color: #998;
+  font-style: italic;
+}
+
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+
+.highlight .k,
+.highlight .o {
+  font-weight: bold;
+}
+
+.highlight .cm {
+  color: #998;
+  font-style: italic;
+}
+
+.highlight .cp {
+  color: #999;
+  font-weight: bold;
+}
+
+.highlight .c1 {
+  color: #998;
+  font-style: italic;
+}
+
+.highlight .cs {
+  color: #999;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.highlight .gd {
+  color: #000000;
+  background-color: #fdd;
+}
+
+.highlight .gd .x {
+  color: #000000;
+  background-color: #faa;
+}
+
+.highlight .ge {
+  font-style: italic;
+}
+
+.highlight .gr {
+  color: #a00000;
+}
+
+.highlight .gh {
+  color: #999999;
+}
+
+.highlight .gi {
+  color: #000000;
+  background-color: #dfd;
+}
+
+.highlight .gi .x {
+  color: #000000;
+  background-color: #afa;
+}
+
+.highlight .go {
+  color: #888888;
+}
+
+.highlight .gp {
+  color: #555555;
+}
+
+.highlight .gs {
+  font-weight: bold;
+}
+
+.highlight .gu {
+  color: #800080;
+  font-weight: bold;
+}
+
+.highlight .gt {
+  color: #a00000;
+}
+
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr {
+  font-weight: bold;
+}
+
+.highlight .kt {
+  color: #458;
+  font-weight: bold;
+}
+
+.highlight .m {
+  color: #009999;
+}
+
+.highlight .s {
+  color: #d14;
+}
+
+.highlight .na {
+  color: #008080;
+}
+
+.highlight .nb {
+  color: #0086b3;
+}
+
+.highlight .nc {
+  color: #458;
+  font-weight: bold;
+}
+
+.highlight .no {
+  color: #008080;
+}
+
+.highlight .ni {
+  color: #800080;
+}
+
+.highlight .ne,
+.highlight .nf {
+  color: #900;
+  font-weight: bold;
+}
+
+.highlight .nn {
+  color: #555555;
+}
+
+.highlight .nt {
+  color: #000080;
+}
+
+.highlight .nv {
+  color: #008080;
+}
+
+.highlight .ow {
+  font-weight: bold;
+}
+
+.highlight .w {
+  color: #bbbbbb;
+}
+
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo {
+  color: #009999;
+}
+
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx {
+  color: #d14;
+}
+
+.highlight .sr {
+  color: #009926;
+}
+
+.highlight .s1 {
+  color: #d14;
+}
+
+.highlight .ss {
+  color: #990073;
+}
+
+.highlight .bp {
+  color: #999999;
+}
+
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+  color: #008080;
+}
+
+.highlight .il {
+  color: #009999;
+}
+
+.highlight .gc {
+  color: #999999;
+  background-color: #eaf2f5;
+}
+
+.type-csharp .highlight .k,
+.type-csharp .highlight .kt {
+  color: #0000FF;
+}
+
+.type-csharp .highlight .nf {
+  color: #000000;
+  font-weight: normal;
+}
+
+.type-csharp .highlight .nc {
+  color: #2b91af;
+}
+
+.type-csharp .highlight .nn {
+  color: #000000;
+}
+
+.type-csharp .highlight .s,
+.type-csharp .highlight .sc {
+  color: #a31515;
+}
+
+/* ==========================================================================
+   Miscellaneous
+   ========================================================================== */
+
+/**
+ * Hide the author section.
+ */
+.author {
+  display: none;
+}
+
+/**
+ * "Go to top" button styling.
+ */
+.go-top {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  text-decoration: none;
+  background-color: #E0E0E0;
+  font-size: 12px;
+  padding: 1em;
+  display: inline;
+  border-radius: 4px;
+  color: var(--primary-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.go-top:hover {
+  background-color: var(--primary-color);
+  color: var(--link-hover-text);
 }
