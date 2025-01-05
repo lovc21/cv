@@ -9,10 +9,11 @@ title: Jakob Dekleva
 **Databases**: Redis, Postgres, MongoDB  
 **Tools**: AWS, GCP, Kubernetes, Docker, Github-Actions, CircleCI, Jenkins, ArgoCD, Linux, Nvim, Prometheus, Grafana, Datadog 
 
-## PROJEC AND CONTRIBUONS
+## EXPERIENCE
 ### DevRev 
 ##### DevOps and Site reliability engineering
 - TODO
+
 ### Comrtade 360
 ##### Systems Administrator and DevOps Enginee, Jul 2022 - Jul 2023, Ljubljana, Slovenija
 - Worked on the Comtrade Fast File System (CFFS) and EOS File System in collaboration with CERN OpenLab.
@@ -31,7 +32,7 @@ of networks SIX.
 educational purposes.
 
 
-## Projects
+## PROJEC AND CONTRIBUONS
 **[*.GOV Web Crawler*](https://github.com/lovc21/web_crawler_Kurtz)**
 
 Built a web crawler project specializing in scraping .gov websites and storing data in a PostgreSQL database. Key features include concurrent scraping, support for robot.txt and sitemap.xml files, duplicate page handling, and crawl management using an SQLite database.
