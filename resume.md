@@ -2,22 +2,12 @@
 title: Jakob Dekleva
 ---
 ###### [ [Github](https://www.github.com/lovc21) ] - [ jakob.dekleva@gmail.com ] 
-#### Experienced project manager with a track record of delivering high-quality results on time and within budget.
+### Software Engineering student with 4 years of hands-on experience in DevOps, backend development, system administration and security.
 
-## Skills
-```Project management```
-```Team leadership```
-```Budget management```
-```Communication```
-```Problem-solving```
-```Agile methodology```
-```Microsoft Project```
-```JIRA```
-```SQL```
-
-**Languages**: Java, Kotlin, Rust  
-**Databases**: Redis, Postgres, Neo4j  
-**Tools**: Spring, Kubernetes, Github-Actions, Linux, Nix, Git, Rest, GraphQL
+## SKILLS and TECHNOLOGIES
+**Programing languages**: Python, Go,  Bash, Terraform, juila and Zig
+**Databases**: Redis, Postgres, MongoDB  
+**Tools**: AWS, GCP, Kubernetes, Docker, Github-Actions, CircleCI, Jenkins, ArgoCD, Linux, Nvim, Prometheus, Grafana, Datadog 
 
 ## Experience
 ### Jamba Juice
@@ -40,6 +30,5 @@ Build your resume using markdown and have it generated as a pdf and html.
 
 ## Education
 
-### Reno University
-**Master of Multimedia Engineering**: University of Ljubljana, Faculty of Computer and Information Science | **Years Attended:** 2022 - 2024 | **City:** Ljubljana
-**Bachelor of Electrical Engineering**: University of Ljubljana, Faculty of Electrical Engineering  | **Years Attended:** 2018 - 2022 | **City:** Ljubljana
+**Master**: University of Ljubljana, Faculty of Computer and Information Science | **Years Attended:** 2022 - 2025 | **City:** Ljubljana \
+**Bachelor**: University of Ljubljana, Faculty of Electrical Engineering  | **Years Attended:** 2018 - 2022 | **City:** Ljubljana
