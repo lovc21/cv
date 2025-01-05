@@ -1,5 +1,5 @@
 {
-  description = "Build you resume with markdown";
+  description = "Build your resume with Markdown and custom CSS";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
@@ -9,7 +9,6 @@
   outputs = { nixpkgs, flake-utils, ... }:
     flake-utils.lib.eachDefaultSystem (system:
       let
-
         pkgs = import nixpkgs {
           inherit system;
           config = {
@@ -20,21 +19,27 @@
         buildInputs = with pkgs; [
           pandoc
           wkhtmltopdf-bin
+          fontconfig    # Font management
+          freetype      # Font rendering
         ];
 
         buildPhase = ''
-          pandoc resume.md \
-          -t html -f markdown \
-          -c style.css --self-contained \
-          -o resume.html
+          # Ensure Fontconfig can find its configuration
+          export FONTCONFIG_PATH=${pkgs.fontconfig}/etc/fonts
 
+          # Convert Markdown to HTML with embedded resources
+          pandoc resume.md \
+            -t html -f markdown \
+            -c style.css --embed-resources --standalone \
+            -o resume.html
+
+          # Convert HTML to PDF
           wkhtmltopdf --enable-local-file-access \
-          resume.html \
-          resume.pdf
+            resume.html \
+            resume.pdf
         '';
 
       in with pkgs; {
-
         packages = {
           default = stdenvNoCC.mkDerivation {
             inherit buildInputs buildPhase;
@@ -63,4 +68,3 @@
         };
       });
 }
-
