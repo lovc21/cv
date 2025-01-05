@@ -1,7 +1,7 @@
 ---
 title: Jakob Dekleva
 ---
-###### [ [Github](https://www.github.com/siph) ] - [ [Blog](https://www.dev.to/siph) ] - [ v.vaughn@gmail.com ] - [ 814 332 8091 ]
+###### [ [Github](https://www.github.com/lovc21) ] - [ jakob.dekleva@gmail.com ] 
 #### Experienced project manager with a track record of delivering high-quality results on time and within budget.
 
 ## Skills
