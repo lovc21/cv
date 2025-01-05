@@ -52,10 +52,11 @@ jobs:
     - name: Build Release
       shell: bash
       run: |
-        gh release create ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
-        -m ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
-        -a out/${{ github.actor }}_resume.html \
-        -a out/${{ github.actor }}_resume.md \
-        -a out/${{ github.actor }}_resume.pdf
+          gh release create "${{ steps.current-datetime.outputs.CURRENT_DATETIME }}" \
+          --title "${{ steps.current-datetime.outputs.CURRENT_DATETIME }}" \
+          --notes "${{ steps.current-datetime.outputs.CURRENT_DATETIME }}" \
+          -a "out/${{ github.actor }}_resume.html" \
+          -a "out/${{ github.actor }}_resume.md" \
+          -a "out/${{ github.actor }}_resume.pdf"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
