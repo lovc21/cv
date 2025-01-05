@@ -41,4 +41,5 @@ Build your resume using markdown and have it generated as a pdf and html.
 ## Education
 
 ### Reno University
-**Degree:** Bachelor of Science in Computer Science | **Years Attended:** 2016-2019 | **City, State:** Reno, NV
+**Master of Multimedia Engineering**: University of Ljubljana, Faculty of Computer and Information Science | **Years Attended:** 2022 - 2024 | **City:** Ljubljana
+**Bachelor of Electrical Engineering**: University of Ljubljana, Faculty of Electrical Engineering  | **Years Attended:** 2018 - 2022 | **City:** Ljubljana
