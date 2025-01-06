@@ -1,5 +1,5 @@
 {
-  description = "Build your resume with Markdown and custom CSS";
+  description = "Build your resume with Markdown and custom CSS using JetBrains Mono";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
@@ -68,3 +68,4 @@
         };
       });
 }
+

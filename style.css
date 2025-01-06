@@ -2,36 +2,36 @@
    Custom Font Integration
    ========================================================================== */
 
-/* Import MonaspaceArgon Font */
+/* Import JetBrains Mono Font */
 @font-face {
-  font-family: 'MonaspaceArgon';
+  font-family: 'JetBrainsMono';
   font-style: normal;
   font-weight: 400;
-  src: local('MonaspaceArgon'), local('MonaspaceArgon-Regular'), url("./monaspace/MonaspaceArgon-Regular.woff") format('woff');
+  src: local('JetBrainsMono'), local('JetBrainsMono-Regular'), url("./fonts/JetBrainsMono-Regular.woff2") format('woff');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'MonaspaceArgon';
+  font-family: 'JetBrainsMono';
   font-style: italic;
   font-weight: 400;
-  src: local('MonaspaceArgon'), local('MonaspaceArgon-Italic'), url("./monaspace/MonaspaceArgon-Italic.woff") format('woff');
+  src: local('JetBrainsMono'), local('JetBrainsMono-Italic'), url("./fonts/JetBrainsMono-Italic.woff2") format('woff');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'MonaspaceArgon';
+  font-family: 'JetBrainsMono';
   font-style: normal;
-  font-weight: bold;
-  src: local('MonaspaceArgon'), local('MonaspaceArgon-Bold'), url("./monaspace/MonaspaceArgon-Bold.woff") format('woff');
+  font-weight: 700;
+  src: local('JetBrainsMono'), local('JetBrainsMono-Bold'), url("./fonts/JetBrainsMono-Bold.woff2") format('woff');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'MonaspaceArgon';
+  font-family: 'JetBrainsMono';
   font-style: italic;
-  font-weight: bold;
-  src: local('MonaspaceArgon'), local('MonaspaceArgon-BoldItalic'), url("./monaspace/MonaspaceArgon-BoldItalic.woff") format('woff');
+  font-weight: 700;
+  src: local('JetBrainsMono'), local('JetBrainsMono-BoldItalic'), url("./fonts/JetBrainsMono-BoldItalic.woff2") format('woff');
   font-display: swap;
 }
 
@@ -48,7 +48,7 @@
 }
 
 body {
-  font-family: 'MonaspaceArgon', Monaco, Menlo, monospace, sans-serif;
+  font-family: 'JetBrainsMono', Monaco, Menlo, monospace, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   background-color: #ffffff; /* White background */
@@ -141,7 +141,7 @@ hr {
 
 #headline {
   display: grid;
-  grid-template-columns: [avatar] 3em [content] auto;
+  grid-template-columns: [avatar] 4em [content] auto;
   grid-column-gap: 0.5em;
   align-items: center;
   margin-bottom: 2em;
@@ -149,8 +149,8 @@ hr {
 
 #headline .avatar {
   grid-column: avatar;
-  width: 3em;
-  height: 3em;
+  width: 4em;
+  height: 4em;
   border-radius: 50%;
   background-color: var(--secondary-color);
 }
@@ -595,3 +595,4 @@ article .content {
   background-color: var(--primary-color);
   color: var(--link-hover-text);
 }
+
