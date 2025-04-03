@@ -2,19 +2,21 @@
 title: Jakob Dekleva
 ---
 
+<div class="contact-info">
 ###### [ [Github](https://www.github.com/lovc21) ] - [jakob.dekleva@gmail.com] - [ [Linkedin](https://www.linkedin.com/in/jakob-dekleva1999/) ]
+</div>
 
 ### Software Engineering Student with 4 Years of Hands-on Experience in DevOps, Backend Development, System Administration, and Security
 
 ## SKILLS AND TECHNOLOGIES
 
-**Programming Languages:** Python, Go, Bash, Terraform, Julia, and Zig \
-**Databases:** Redis, Postgres, MongoDB  \
+**Programming Languages:** Python, Go, Bash, Terraform, Julia, and Zig  
+**Databases:** Redis, Postgres, MongoDB  
 **Tools:** AWS, GCP, Kubernetes, Docker, GitHub Actions, CircleCI, Jenkins, ArgoCD, Linux, Nvim, Prometheus, Grafana, Datadog
 
 ## EXPERIENCE
 
-### DevRev  
+### <span class="left-align">DevRev</span>  
 
 **DevOps and Site Reliability Engineering,  Dec 2023 - Feb 2025, Ljubljana, Slovenia**
 
@@ -23,7 +25,7 @@ title: Jakob Dekleva
 - Migrated services from a Bazel build system to a homegrown build system, maintaining and upgrading it after its creator left.
 - Implemented Snyk static code analysis to upgrade dependencies and prevent security exploits.
 
-### Comtrade 360  
+### <span class="left-align">Comtrade 360</span>  
 
 **Systems Administrator and DevOps Engineer, Jul 2022 - Jul 2023, Ljubljana, Slovenia**
 
@@ -31,7 +33,7 @@ title: Jakob Dekleva
 - Built a Prometheus monitoring system to collect HDD and SSD SMART metrics for use in ML programs.
 - Conducted performance testing of various file systems showcased at technology conferences.
 
-### ARNES - Academic and Research Network of Slovenia  
+### <span class="left-align">ARNES - Academic and Research Network of Slovenia</span>  
 
 **Network Engineer and Systems Administrator, Mar 2021 - Oct 2021, Ljubljana, Slovenia**
 
