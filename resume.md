@@ -16,7 +16,7 @@ title: Jakob Dekleva
 
 ### DevRev  
 
-**DevOps and Site Reliability Engineering,  Dec 2023 - Feb 2025, Ljubljana, Slovenia***
+**DevOps and Site Reliability Engineering,  Dec 2023 - Feb 2025, Ljubljana, Slovenia**
 
 - Switched Kubernetes instances from Intel to AMD, reducing costs by 7% while maintaining performance, and assisted in acquiring AMD as a partner.
 - Provisioned the app in two new regions (Europe and Australia) by setting up the CI pipeline, Kubernetes, ArgoCD, and MongoDB database; partially automated deployment for future regions.
