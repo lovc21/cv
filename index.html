@@ -22,7 +22,6 @@ vertical-align: middle;
 .display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
   <style type="text/css">
-
 @font-face {
 font-family: 'JetBrainsMono';
 font-style: normal;
@@ -63,14 +62,14 @@ body {
 font-family: 'JetBrainsMono', Monaco, Menlo, monospace, sans-serif;
 font-size: 15px;
 line-height: 1.6;
-background-color: #ffffff; 
-padding: 1em; 
-margin: 0.5em; 
-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
-border-radius: 8px; 
---primary-color: black;
---secondary-color: #333333;
---accent-color: #f8f8f8;
+background-color: #ffffff;
+padding: 0;
+margin: 0;
+
+}
+
+.left-align {
+text-align: left !important;
 }
 h1, h2, h3, h4, h5, h6, p, ul {
 margin: 0;
@@ -182,156 +181,8 @@ color: var(--secondary-color);
 text-align: center;
 margin: 1em 0;
 }
-#location {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-bottom: 2em;
-}
-#location .address,
-#location .contact {
-margin: 0.5em 0;
-color: var(--secondary-color);
-}
-#location a {
-color: var(--primary-color);
-}
-#location a:hover {
-background-color: var(--primary-color);
-color: var(--link-hover-text);
-padding: 0.1em 0.2em;
-border-radius: 4px;
-}
-
-.education {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 1em 0;
-}
-.education .degree {
-font-size: 0.9em;
-margin: 0.3em 0;
-text-align: center;
-}
-
-.pills {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-list-style: none;
-padding: 0;
-gap: 0.5em;
-margin: 1em 0;
-}
-.pills .pill {
-display: inline-block;
-padding: 0.3em 0.6em;
-border-radius: 15px;
-background-color: var(--accent-color);
-color: var(--primary-color);
-font-size: 0.9em;
-}
-
-.summary-text {
-font-size: 1em; 
-line-height: 1.4;
-text-align: center;
-margin: 0.5em 0;
-}
-
-.shadow,
-.shadow-items > * {
-box-shadow: -0.25em 0.25em 0 rgba(0, 0, 0, 0.1);
-border: 0.1em solid var(--primary-color);
-border-radius: 5px;
-}
-
-@media print {
-body {
-font-size: 0.8em;
-padding: 0.5em;
-}
-.print-it {
-display: none;
-visibility: hidden;
-}
-h3 {
-text-align: left;
-justify-self: start;
-}
-}
-@media screen and (min-width: 700px) {
-hr {
-display: block;
-visibility: visible;
-justify-self: center;
-align-self: center;
-}
-h2, h3 {
-grid-column: headers;
-text-align: right;
-justify-self: end;
-}
-#webaddress {
-flex-direction: row;
-flex-wrap: wrap;
-align-items: center;
-list-style: none;
-padding: 0;
-gap: 0.5em;
-justify-content: flex-start;
-}
-#headline {
-grid-template-columns: [avatar] 4em [content] auto;
-font-size: 3em;
-}
-#headline .avatar {
-width: 4em;
-height: 4em;
-margin-bottom: 0;
-}
-#headline .title,
-#headline .subtitle {
-text-align: left;
-}
-article {
-grid-template-columns: [headers] 20% [content] auto;
-}
-.pills {
-justify-content: flex-start;
-}
-h4 {
-grid-template-columns: [headers] 20% [content] auto;
-justify-self: start;
-}
-}
 
 
-
-
-.author {
-display: none;
-}
-
-.go-top {
-position: fixed;
-bottom: 2em;
-right: 2em;
-text-decoration: none;
-background-color: #E0E0E0;
-font-size: 12px;
-padding: 1em;
-display: inline;
-border-radius: 4px;
-color: var(--primary-color);
-transition: background-color 0.3s, color 0.3s;
-}
-.go-top:hover {
-background-color: var(--primary-color);
-color: var(--link-hover-text);
-}
 </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -356,7 +207,7 @@ CircleCI, Jenkins, ArgoCD, Linux, Nvim, Prometheus, Grafana, Datadog</p>
 <h2 id="experience">EXPERIENCE</h2>
 <h3 id="devrev">DevRev</h3>
 <p><strong>DevOps and Site Reliability Engineering, Dec 2023 - Feb 2025,
-Ljubljana, Slovenia</strong>*</p>
+Ljubljana, Slovenia</strong></p>
 <ul>
 <li>Switched Kubernetes instances from Intel to AMD, reducing costs by
 7% while maintaining performance, and assisted in acquiring AMD as a
