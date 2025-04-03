@@ -16,7 +16,7 @@ title: Jakob Dekleva
 
 ## EXPERIENCE
 
-### <span class="left-align">DevRev</span>  
+### DevRev
 
 **DevOps and Site Reliability Engineering,  Dec 2023 - Feb 2025, Ljubljana, Slovenia**
 
@@ -25,7 +25,7 @@ title: Jakob Dekleva
 - Migrated services from a Bazel build system to a homegrown build system, maintaining and upgrading it after its creator left.
 - Implemented Snyk static code analysis to upgrade dependencies and prevent security exploits.
 
-### <span class="left-align">Comtrade 360</span>  
+### Comtrade 360
 
 **Systems Administrator and DevOps Engineer, Jul 2022 - Jul 2023, Ljubljana, Slovenia**
 
@@ -33,7 +33,7 @@ title: Jakob Dekleva
 - Built a Prometheus monitoring system to collect HDD and SSD SMART metrics for use in ML programs.
 - Conducted performance testing of various file systems showcased at technology conferences.
 
-### <span class="left-align">ARNES - Academic and Research Network of Slovenia</span>  
+### ARNES - Academic and Research Network of Slovenia
 
 **Network Engineer and Systems Administrator, Mar 2021 - Oct 2021, Ljubljana, Slovenia**
 
@@ -55,11 +55,11 @@ Developed a cloud-native microservice application for uploading photos and retri
 ## EDUCATION
 
 **Master's Degree:**  
-University of Ljubljana, Faculty of Computer and Information Science  
+[University of Ljubljana, Faculty of Computer and Information Science](https://www.fri.uni-lj.si/en)  
 **Years Attended:** 2022 - 2025  
 **City:** Ljubljana
 
 **Bachelor's Degree:**  
-University of Ljubljana, Faculty of Electrical Engineering  
+[University of Ljubljana, Faculty of Electrical Engineering](https://fe.uni-lj.si/en)  
 **Years Attended:** 2018 - 2022  
 **City:** Ljubljana

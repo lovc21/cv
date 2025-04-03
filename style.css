@@ -73,19 +73,21 @@ h1 {
   color: var(--primary-color);
 }
 
-h2, h3 {
+h2 {
   font-weight: normal;
   text-transform: uppercase;
   text-align: center;
   margin: 1em 0;
   color: var(--primary-color);
-}
-
-h2 {
   font-size: 1.4em;
 }
 
 h3 {
+  font-weight: normal;
+  text-transform: none;
+  text-align: left;
+  margin: 1em 0;
+  color: var(--primary-color);
   font-size: 1.4em;
 }
 
