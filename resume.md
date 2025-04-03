@@ -52,6 +52,9 @@ Solved several numerical tasks using Julia, structured as a library of numerical
 **[Photo Gallery Editor Microservice](https://github.com/RSO-project-Prepih)**
 Developed a cloud-native microservice application for uploading photos and retrieving detailed picture information. The architecture consists of multiple microservices: the backend is built in Go and Node.js, and the frontend in React. The project is deployed on Google Cloud using Kubernetes and Docker, with full CI/CD and monitoring support via CircleCI, Prometheus, and Grafana.
 
+**[Chess Engine NeuroSpeed](https://github.com/lovc21/NeuroSpeed)**
+Created a UCI-compliant chess engine in the Zig programming language, specifically designed for playing bullet games against strong chess engines. This project is still a work in progress and is not yet finished.
+
 ## EDUCATION
 
 **Master's Degree:**  
