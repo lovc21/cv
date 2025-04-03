@@ -27,7 +27,7 @@ title: Jakob Dekleva
 
 ### [Comtrade 360](https://www.comtrade360.com/)
 
-**Systems Administrator and DevOps Engineer, Jul 2022 - Jul 2023, Ljubljana, Slovenia**
+**Software Engineer and DevOps Engineer, Jul 2022 - Jul 2023, Ljubljana, Slovenia**
 
 - Collaborated with CERN OpenLab on the Comtrade Fast File System (CFFS) and EOS File System.
 - Built a Prometheus monitoring system to collect HDD and SSD SMART metrics for use in ML programs.
@@ -43,13 +43,13 @@ title: Jakob Dekleva
 
 ## PROJECTS AND CONTRIBUTIONS
 
-**[.GOV Web Crawler](https://github.com/lovc21/web_crawler_Kurtz)**  
+**[.GOV Web Crawler](https://github.com/lovc21/web_crawler_Kurtz)**
 Built a web crawler specializing in scraping .gov websites and storing data in a PostgreSQL database. Features include concurrent scraping, support for robots.txt and sitemap.xml files, duplicate page handling, and crawl management using SQLite.
 
-**[Numerical Analysis in Julia](https://github.com/Numerical-analysis-in-julija)**  
+**[Numerical Analysis in Julia](https://github.com/Numerical-analysis-in-julija)**
 Solved several numerical tasks using Julia, structured as a library of numerical functions with full CI/CD support, standalone documentation, and testing.
 
-**[Photo Gallery Editor Microservice](https://github.com/RSO-project-Prepih)**  
+**[Photo Gallery Editor Microservice](https://github.com/RSO-project-Prepih)**
 Developed a cloud-native microservice application for uploading photos and retrieving detailed picture information. The architecture consists of multiple microservices: the backend is built in Go and Node.js, and the frontend in React. The project is deployed on Google Cloud using Kubernetes and Docker, with full CI/CD and monitoring support via CircleCI, Prometheus, and Grafana.
 
 ## EDUCATION
