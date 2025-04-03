@@ -16,16 +16,16 @@ title: Jakob Dekleva
 
 ## EXPERIENCE
 
-### DevRev
+### [DevRev](https://devrev.ai/)
 
-**DevOps and Site Reliability Engineering,  Dec 2023 - Feb 2025, Ljubljana, Slovenia**
+**Site Reliability Engineering,  Dec 2023 - Feb 2025, Ljubljana, Slovenia**
 
 - Switched Kubernetes instances from Intel to AMD, reducing costs by 7% while maintaining performance, and assisted in acquiring AMD as a partner.
 - Provisioned the app in two new regions (Europe and Australia) by setting up the CI pipeline, Kubernetes, ArgoCD, and MongoDB database; partially automated deployment for future regions.
 - Migrated services from a Bazel build system to a homegrown build system, maintaining and upgrading it after its creator left.
 - Implemented Snyk static code analysis to upgrade dependencies and prevent security exploits.
 
-### Comtrade 360
+### [Comtrade 360](https://www.comtrade360.com/)
 
 **Systems Administrator and DevOps Engineer, Jul 2022 - Jul 2023, Ljubljana, Slovenia**
 
@@ -33,7 +33,7 @@ title: Jakob Dekleva
 - Built a Prometheus monitoring system to collect HDD and SSD SMART metrics for use in ML programs.
 - Conducted performance testing of various file systems showcased at technology conferences.
 
-### ARNES - Academic and Research Network of Slovenia
+### [ARNES - Academic and Research Network of Slovenia](https://www.arnes.si/en/home/)
 
 **Network Engineer and Systems Administrator, Mar 2021 - Oct 2021, Ljubljana, Slovenia**
 
