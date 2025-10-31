@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Custom Font Integration (unchanged)
+   Custom Font Integration
    ========================================================================== */
 
 @font-face {
@@ -39,11 +39,16 @@
    ========================================================================== */
 
 :root {
-  --primary-color: #000000; /* Black */
-  --secondary-color: #333333; /* Dark Gray */
-  --accent-color: #f8f8f8; /* Light Gray */
-  --link-hover-bg: #000000; /* Black for link hover background */
-  --link-hover-text: #ffffff; /* White for link hover text */
+  --primary-color: #000000;
+  /* Black */
+  --secondary-color: #333333;
+  /* Dark Gray */
+  --accent-color: #f8f8f8;
+  /* Light Gray */
+  --link-hover-bg: #000000;
+  /* Black for link hover background */
+  --link-hover-text: #ffffff;
+  /* White for link hover text */
 }
 
 body {
@@ -53,15 +58,20 @@ body {
   background-color: #ffffff;
   padding: 0;
   margin: 0;
-  /* Removed box-shadow and border-radius for full page layout */
 }
 
-/* Add new class for left alignment */
 .left-align {
   text-align: left !important;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
   margin: 0;
   font-size: 1em;
 }
@@ -77,30 +87,46 @@ h2 {
   font-weight: normal;
   text-transform: uppercase;
   text-align: center;
-  margin: 1em 0;
+  margin: 1.5em 0 1em 0;
   color: var(--primary-color);
   font-size: 1.4em;
 }
 
+/* Company names - with underline and indentation */
 h3 {
-  font-weight: normal;
+  font-weight: bold;
   text-transform: none;
   text-align: left;
-  margin: 1em 0;
+  margin: 1.5em 0 0.5em 1em;
+  padding-bottom: 0.4em;
+  padding-left: 0.5em;
   color: var(--primary-color);
-  font-size: 1.4em;
-  text-transform: none !important;
+  font-size: 1.3em;
+  border-bottom: 2px solid var(--primary-color);
+  max-width: 95%;
 }
 
 h4 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: var(--secondary-color);
   text-align: left;
-  margin-bottom: 0.5em;
+  margin: 0.8em 0 0.5em 1.5em;
+  font-style: italic;
 }
 
 p {
-  margin: 1em 0;
+  margin: 0.8em 0 0.8em 1.5em;
+  color: var(--secondary-color);
+}
+
+ul {
+  margin: 0.5em 0 1em 3em;
+  padding-left: 0;
+  list-style-type: disc;
+}
+
+ul li {
+  margin: 0.4em 0;
   color: var(--secondary-color);
 }
 
@@ -115,11 +141,6 @@ a:hover {
   background-color: var(--link-hover-bg);
   padding: 0.1em 0.2em;
   border-radius: 4px;
-}
-
-ul, ol {
-  padding-left: 1.5em;
-  list-style-type: disc;
 }
 
 ol {
@@ -205,8 +226,11 @@ article .content {
 }
 
 /* ==========================================================================
-   Remaining Styles (unchanged unless needed)
+   Section Spacing
    ========================================================================== */
 
-/* ... */
-
+#experience,
+#projects-and-contributions,
+#education {
+  margin-bottom: 2em;
+}
